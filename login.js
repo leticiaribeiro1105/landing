@@ -59,7 +59,7 @@ async function autenticar(email, senha) {
         throw new Error(dados.mensagem || "Não foi possível entrar. Tente novamente.");
     }
 
-    return dados; 
+    return dados;
 }
 
 /* ===== ENVIO DO FORMULÁRIO ===== */
