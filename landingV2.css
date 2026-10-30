@@ -580,18 +580,6 @@ footer{
     position:relative
 }
 
-.footer-main:after{
-    content:'';
-    position:absolute;
-    right:5%;
-    bottom:10px;
-    width:90px;
-    height:70px;
-    background:radial-gradient(circle,#16705a 4px,transparent 5px);
-    background-size:18px 18px;
-    opacity:.7
-}
-
 .footer-main>div{
     display:flex;
     flex-direction:column;
